@@ -1,0 +1,18 @@
+---
+title: "R Markdown and Leaflet assignment"
+author: "Thaya S"
+date: "September 5, 2019"
+output: html_document
+---
+
+
+```{r}
+library(leaflet)
+```
+
+Create a leaflet map object
+
+```{r}
+mymap <- leaflet()%>%addTiles()
+mymap
+```
